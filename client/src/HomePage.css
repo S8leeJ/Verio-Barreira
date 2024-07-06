@@ -1,0 +1,13 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(187, 72%, 93%); /* Light blue-green background */
+    background-image: url('Images/River.jpeg'); /* Path to the image */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat;
+ 
+  }
+  
+   
