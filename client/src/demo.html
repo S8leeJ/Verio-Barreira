@@ -21,12 +21,13 @@ body, html {
   background-size: cover;
   background-image: url("./Images/river.jpeg");
   min-height: 100%;
-
 }
 
 .w3-bar .w3-button {
   padding: 16px;
 }
+
+ 
 </style>
 </head>
 <body>
@@ -34,10 +35,12 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide">
+      <img src="Images/Logo.jpeg" alt="Logo" style="height: 50px;"> Verio Barreira
+    </a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#about" class="w3-bar-item w3-button">PROBLEMS</a>
       <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
       <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
       <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
@@ -62,12 +65,13 @@ body, html {
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+<header class="bgimg-1 w3-display-container" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
-    <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+    <span class="w3-jumbo w3-hide-small">Verio Barreira</span><br>
+    <span class="w3-large" style="margin-right: 20px;">
+      Verio Barreira is an innovative barrier system designed to sustain the coasts of rivers and combat erosion, particularly in areas with poor infrastructure and close to urban centers. By stabilizing riverbanks and reducing sediment runoff, Verio Barreira protects communities from flooding and infrastructure damage, ensuring cleaner water and a safer environment.
+  </span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Take a look at the problems</a></p>
   </div> 
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -80,29 +84,40 @@ body, html {
 </header>
 
 <!-- About Section -->
-<div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
+<div class="w3-container" style="padding:128px 16px; background-color:rgba(115,168,172,0.5)" id="about">
+  <h3 class="w3-center">THE PROBLEMS WE ARE FACING</h3>
+  <p class="w3-center w3-large">Key problems our product is solving</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">Responsive</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+    <div class="w3-quarter" >
+      <div class="video-responsive">
+        <iframe src="https://www.youtube.com/embed/JkaMM0nXads?si=wZilRn5O2VmPkud_" frameborder="0" allowfullscreen></iframe>
+    </div>      
+    <p class="w3-large">Impact from erosion</p>
+      <p>Soil erosion is a significant environmental challenge in Bangladesh, with profound impacts on its landscape, economy, and population. The country’s unique geographical features and socio-economic conditions contribute to the severity of the problem.
+      </p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <div class="video-responsive">
+        <iframe src="https://www.youtube.com/embed/mrPGP25UxwU?si=kABP6WypVAUCp8aP" frameborder="0" allowfullscreen></iframe>
+    </div> 
+    <p class="w3-large">Soil Erosion</p>
+      <p>The Ganga River experiences substantial riverbank erosion, particularly during the monsoon season. The high velocity of water flow causes the banks to collapse, leading to significant soil loss.
+      </p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <div class="video-responsive">
+        <iframe src="https://www.youtube.com/embed/jB9O0hxOInk?si=8E3AUW1Qpo4SQPxL" frameborder="0" allowfullscreen></iframe>
+    </div>       <p class="w3-large">Design</p>
+      <p>The City of Milton has been involved in activities that have caused significant erosion of the riverbank, leading to the loss of land for local property owners. These activities, including unregulated construction, inadequate stormwater management, and improper waste disposal, have resulted in negligent trespass and significant environmental degradation.
+      </p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <iframe src="https://www.youtube.com/embed/8MRwKZ4thGM?si=qLPwO5jywjmhd7SQ" frameborder="0" allowfullscreen></iframe>
+    </div>  
+      <p class="w3-large">Flash Floods</p>
+      <p>Switzerland, known for its picturesque landscapes and mountainous terrain, occasionally faces natural disasters such as flash floods. These sudden and intense flooding events can cause widespread damage and pose significant risks to both people and infrastructure.
+
+      </p>
     </div>
   </div>
 </div>
